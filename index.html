@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" >
+    <title>Hello, world!</title>
+    <style>
+        #overview{
+            background-image: url(asset/js/lawu.jpg);
+            background-size:cover;
+        }
+        .container-fluid{
+            box-sizing:content-box
+        }
+        #navigation{
+            display: none;
+        }
+        #description{
+            font-size:1.2rem;
+        }
+        #overview-image img{
+            margin-left: 50px;
+        }
+        #overview-image img{
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+        #description{
+            padding-left: 130px;
+        }
+        #footer{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row" id="header">
+            <div class="col-6">
+                <a href="index.html">
+                    <img src="asset/js/lawu.jpg" alt="logo" style="height:40px; width:40px;margin-left:10px">       
+                </a>
+            </div>
+           
+                <div id="navigation" class="col-6">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-dark" href="#">service</a>
+                        </li>
+                    </ul>
+                </div>
+            
+        </div>
+    </div>
+    <!--block overview-->
+    <div id="overview" class="contaier-fluid">
+        <div class="row">
+            <div id="descripstion" class="col-6 pl-5">
+                
+                <h1 class="text-light">GUNUNG SALAK</h1>
+                <p class="text-light">gunung salak merupakan komplex gunung merapi yang terletak di selatan jakarta dipulau jawa
+                    gunung ini termasuk ke dalam wilayah kabupaten sukabumi dan kabupaten bogor,jawa barat 
+                    pengelolaan kawasan hutanya semula berada dibawah perum perhutani.</p>
+                    <a class="btn btn-primary" href="#">read more</a>
+                   
+                </div>
+                <div id="overview-image" class="col-6">
+                </div>
+            </div>
+        </div>
+        
+        <!--block aticle-->
+        <div class="container" id="article">
+            <div class="row">
+                <div id="content" class="col-8">
+                    <div class="list-article mt-5" id="artikel-1">
+                        <img class="img-fluid" src="asset/js/merapi.jpg">
+                        <a href= "#">artikel</a>
+                        <a href="author">
+                            <img class="rounded-circle float-left" src="asset/js/download.jpg" alt="bandhot" width="48">
+                            <div class="clearfix"></div>
+                        </div>
+                        <h2 class="display 4"gunung kerinci></h2>
+                        <p>gunung kerinci dikenal dengan gununbg gedang adalah gunung teringgi di sumantra gunung berapi tertinggi di sumantra 
+                            dan pncak tertingi di indoesia di luar papua gunung  krinci terletak tepat di perbatasan antara provisi sumantar barat denagn provinsi jambi
+                        </p>
+                            <a class="btn btn-primary" href="#">read more</a>  
+                        </div>
+                        <div id="sidebar" class="col-sm-4 mt-4">
+                            <ul class="list-group">
+                                <li class="list-group-item" id="artikel-1"><a href="#artikel-1">gunung salak</a></li>
+                                <li class="list-group-item" id="artikel-2"><a href="#artikel-2">gunung merapi</a></li> 
+                                <li class="list-group-item" id="artikel-3"><a href="#artikel-3">gunung kerinci</a></li>
+                                <li class="list-group-item" id="artikel-4"><a href="#artikel-4">gunungg lawu</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+              
+                </div>
+            </div>
+            
+            <!--block footer-->
+            <div class="container-fluid mt-5 bg-secondary">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h2>gunung merapi</h2>
+                        <p>gunung merapi adalah gunung dibagian tengah pulau jawa dan merpukan gunung salah satu gunung yang masih
+                            teraktiv di indonesia.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <h2>gunung krinci</h2>
+                            <p>gunung kerinci dikenal dengan gununbg gedang adalah gunung teringgi di sumantra gunung berapi tertinggi di sumantra 
+                                dan pncak tertingi di indoesia di luar papua gunung  krinci terletak tepat di perbatasan antara provisi sumantar barat denagn provinsi jambi
+                            </p>
+                        </div>
+                        <div class="col-3">
+                            <h2>gunung lawu</h2>
+                            <p>gunung lawu tepatnya di perbatasan porivinsi jawa jawa tengah dan jawa timur gunung terletak antara 3 kabupatn yaitu kabupaten karangganyar,ngawi,mageta.
+                                status gunung ini adalah gunung api "istirahat" (diperkirakan terakhir meletus pada tanggal 28 november 188) </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="asset/js/jquery-3.5.1.slim.min.js" ></script>
+                    <script src="asset/js/jquery-3.5.1.slim.min.js" ></script>
+                    <script src="asset/js/boo8tstrap.min.js"></script>
+                    <script>         
+                        x=document.getElementsByClassName("tes")[0];
+                        y=x.parentNode.parentNode;
+                        console.log(y);
+                        x.innerHTML=y.offsetWidth;
+                    </script>
+                </body>
+                </html>
